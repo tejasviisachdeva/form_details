@@ -1,5 +1,49 @@
 .container {
   display: flex;
-  gap: 60px;
+  align-items: flex-start; 
+  justify-content: center;
+  gap: 150px;
   padding: 30px;
+}
+
+.container form{
+  background: #ffffeb;
+  padding: 15px;
+  border: 1px solid;
+  box-sizing: border-box;
+  width: 340px;
+}
+
+
+.container > div {
+  background: #e6faed;
+  padding: 15px;
+  border: 1px solid;
+  box-sizing: border-box;
+  width: 340px;
+}
+
+.container label {
+  display: block;
+  font-weight: 600;
+}
+
+.container input {
+  width: 92%;
+  padding: 10px;
+}
+
+
+.container button {
+  width: 100%;
+  padding: 12px;
+  background: #4f46e5;
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.container button:hover {
+  background: #4338ca;
 }
